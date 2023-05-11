@@ -2,4 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #fff;
+    
+    font-weight: 500;
+    font-size: 2rem;
+}
+#movie_name__search {
+    font-size: 1.20rem;
+    border-radius: .50rem;
+    background-color: #fff;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+    
+}
+.item {
+    width: 10rem;
+    height: 15rem;
+    background-color: #fff;
+    position: relative;
+    align-self: self-start;
 }
