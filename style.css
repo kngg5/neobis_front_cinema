@@ -5,6 +5,10 @@
     font-family: sans-serif;
     background-color: black;
 }
+.logo a {
+    text-decoration: none;
+    color: white;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -21,7 +25,7 @@
     outline: none;
 }
 .main {
-    max-width: 1200px;
+    max-width: 1300px;
     text-align: center;
     color: #fff;
     margin-top: 1rem;
@@ -31,8 +35,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 60rem;
+    max-width: 62rem;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .movie_item {
@@ -57,12 +62,21 @@
     height: 1rem;
     top: 1rem;
     left: 1rem;
-    padding: 1rem;
+    padding: 1.60rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: .13rem solid red;
+    
     border-radius: 50%;
+}
+.yellow {
+    border: .13rem solid yellow;
+}
+.green {
+    border: .13rem solid green;
+}
+.red {
+    border: .13rem solid red;
 }
 .movie_image {
     height: 100%;
