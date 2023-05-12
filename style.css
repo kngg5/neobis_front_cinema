@@ -24,27 +24,30 @@
     max-width: 1200px;
     text-align: center;
     color: #fff;
-    
+    margin-top: 1rem;
 }
 
 .movies {
     display: flex;
     width: 100%;
-    max-width: 50rem;
+    max-width: 60rem;
     margin: 0 auto;
 }
 
 .movie_item {
-    margin: 1rem;
-    height: rem;
+    margin: 2rem;
+    width: 15rem;
+
     background-color: #fff;
     position: relative;
     text-align: left;
     line-height: 1.50rem;
     position: relative;
+    background-color: transparent;
+    
 }
 .movie_poster {
-    height: 45vh;
+    height: 20rem;
     background-color: red;
 }
 .movie_rate {
@@ -65,6 +68,9 @@
     width: 100%;
 }
 
+.movie_info {
+    margin-top: 1rem;
+}
 
 .movie_info__heading{
     color: white;
