@@ -29,6 +29,7 @@
 
 .movies {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 60rem;
     margin: 0 auto;
@@ -80,4 +81,7 @@
 .movie_info__genre {
     color: rgb(235, 201, 11);
     font-size: .90rem;
+}
+.test {
+    color: white;
 }
