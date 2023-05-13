@@ -19,6 +19,7 @@
     font-size: 2rem;
 }
 #movie_name__search {
+    height: 2.30rem;
     font-size: 1.20rem;
     border-radius: .50rem;
     background-color: #fff;
@@ -54,7 +55,7 @@
 }
 .movie_poster {
     height: 20rem;
-    background-color: red;
+    
 }
 .movie_rate {
     position: absolute;
@@ -98,4 +99,18 @@
 }
 .test {
     color: white;
+}
+
+.movie_sections {
+    font-size: 1.20rem;
+    display: flex;
+    
+}
+.movie_sections__item {
+    list-style: none;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.movie_sections__item:hover {
+    text-decoration: underline;
 }
